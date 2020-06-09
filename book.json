@@ -1,0 +1,24 @@
+{
+    "plugins": [
+        "-sharing",
+        "hide-published-with",
+        "livereload",
+        "uml",
+        "mindmap",
+        "anchor-navigation-ex-toc",
+        "wide-page"
+    ],
+    "pluginsConfig": {
+        "uml": {
+            "charset": "UTF-8"
+        },
+        "anchor-navigation-ex-toc": {
+            "associatedWithSummary": true,
+            "multipleH1": false,
+            "showLevel": true
+        },
+        "theme-default": {
+            "showLevel": true
+        }
+    }
+}
