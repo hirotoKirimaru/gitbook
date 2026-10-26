@@ -1,15 +1,16 @@
 {
   "dependencies": {
-    "gitbook-cli": "^2.3.2",
     "gitbook-plugin-anchor-navigation-ex-toc": "0.0.11",
     "gitbook-plugin-hide-published-with": "^1.0.3",
-    "gitbook-plugin-mathjax": "^1.1.2",
+    "gitbook-plugin-livereload": "^0.0.1",
     "gitbook-plugin-mindmap": "^1.2.0",
-    "gitbook-plugin-wide-page": "^1.0.1"
+    "gitbook-plugin-uml": "^1.0.3",
+    "gitbook-plugin-wide-page": "^1.0.1",
+    "honkit": "^6.2.5"
   },
   "scripts": {
-    "gitbook": "gitbook",
-    "serve": "gitbook serve",
-    "build": "gitbook build"
+    "gitbook": "honkit",
+    "serve": "honkit serve",
+    "build": "honkit build"
   }
 }
